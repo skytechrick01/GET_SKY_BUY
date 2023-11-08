@@ -1,15 +1,13 @@
 const express = require("express"); // Adding_EXPRESS
-const fs = require("fs"); // adding fs
-const mongoose = require("mongoose"); // mongoose
-const path = require("path"); // path 
 const app = express(); // app in express
+const mongoose = require("mongoose"); // mongoose
+// const fs = require("fs"); // adding fs
+// const path = require("path"); // path 
 
 
 
 app.get("/", (req, res) => {
-    res.status(200).send("../index.html");
+    res.status(200).render('../SERVING_FILES_HTML/index');
 })
 
-app.listen('2005',() => {
-    console.log(`http://127.0.0.1:2005`);
-})
+app.listen('205');
