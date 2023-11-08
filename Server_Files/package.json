@@ -1,0 +1,22 @@
+{
+  "name": "getskybuy",
+  "version": "1.0.2",
+  "description": "This is a Indian Online shopping site for local Shop and many advantages...",
+  "main": "app.js",
+  "scripts": {
+    "test": "getskybuy"
+  },
+  "keywords": [
+    "getskybuy",
+    "GET-SKY-BUY",
+    "GET_SKY_BUY",
+    "GETSKYBUY",
+    "get-sky-buy",
+    "RICK"
+  ],
+  "author": "GET-SKY-BUY",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
