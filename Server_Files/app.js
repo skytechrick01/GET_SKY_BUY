@@ -1,5 +1,6 @@
-const express = require("express");
-const fs = require("fs");
-const mongoose = require("mongoose");
-const express = require("express");
-const path = require("path");
+const express = require("express"); // Adding_EXPRESS
+const fs = require("fs"); // adding fs
+const mongoose = require("mongoose"); // mongoose
+const path = require("path"); // path 
+const app = express(); // app in express
+
